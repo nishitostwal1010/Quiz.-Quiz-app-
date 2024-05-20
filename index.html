@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+
+    <main class="main">
+
+        <header class="header">
+            <a href="#" class="logo">Quiz.</a>
+            <nav class="navbar">
+                <ul>
+                    <a href="#" class='active'>Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Services</a>
+                    <a href="#">Contact</a>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="home">
+            <div class="home-content">
+                <h1>Quiz Website</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore cumque, vitae eligendi excepturi quae ad esse est labore distinctio? Sapiente, explicabo odit? Numquam, dolorem inventore.</p>
+                <button class="startBtn">Start Quiz</button>
+            </div>
+        </section>
+    </main>
+
+    <section class="questionsContainer">
+
+        <div class="que-content">
+            <h3>Question 1</h3>
+            <p>Loading...</p>
+            <div class="answers">
+                <div class="options"><p>Loading...</p><span class="circle"></span></div>
+                <div class="options"><p>Loading...</p><span class="circle"></span></div>
+                <div class="options"><p>Loading...</p><span class="circle"></span></div>
+                <div class="options"><p>Loading...</p><span class="circle"></span></div>
+            </div>
+        </div>
+
+        <div class="btn-grp2">
+            <button class="quizBtn quizExitBtn">Exit Quiz</button>
+            <button class="quizBtn quizNextBtn">Next</button>
+        </div>
+    </section>
+
+    <div class="popup-info">
+        <h2>Quiz Guide</h2>
+
+        <label for="number" class="control-label">Number of questions:</label>
+        <input type="number" name="number" id="amount" class="control" value="10" />
+
+        <label for="category" class="control-label">Select Category:</label>
+        <select name="category" class="control" id="category">
+            <option value="9" selected>General Knowledge</option>
+            <option value="10">Entertainment: Books</option>
+            <option value="11">Entertainment: Film</option>
+            <option value="12">Entertainment: Music</option>
+            <option value="13">Entertainment: Musicals &amp; Theatres</option>
+            <option value="14">Entertainment: Television</option>
+            <option value="15">Entertainment: Video Games</option>
+            <option value="16">Entertainment: Board Games</option>
+            <option value="17">Science &amp; Nature</option>
+            <option value="18">Science: Computers</option>
+            <option value="19">Science: Mathematics</option>
+            <option value="20">Mythology</option>
+            <option value="21">Sports</option>
+            <option value="22">Geography</option>
+            <option value="23">History</option>
+            <option value="24">Politics</option>
+            <option value="25">Art</option>
+            <option value="26">Celebrities</option>
+            <option value="27">Animals</option>
+            <option value="28">Vehicles</option>
+            <option value="29">Entertainment: Comics</option>
+            <option value="30">Science: Gadgets</option>
+            <option value="31">Entertainment: Japanese Anime &amp; Manga</option>
+            <option value="32">Entertainment: Cartoon &amp; Animations</option>		
+        </select>
+
+        <label for="difficulty" class="control-label">Select Difficulty:</label>
+        <select name="difficulty" class="control" id="difficulty">
+			<option value="easy" selected   >Easy</option>
+			<option value="medium">Medium</option>
+			<option value="hard">Hard</option>
+		</select>
+
+        <div class="btn-grp1">
+            <button class="infoBtn exitBtn">Exit Quiz</button>
+            <button class="infoBtn continueBtn">Continue</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+   
+</body>
+</html>
