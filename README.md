@@ -10,7 +10,7 @@ Welcome to the Quiz App repository! This application is a web-based quiz platfor
 
 ## Demo
 
-Check out the live demo here https://quiz-quiz-a1d117rr5-nishitostwals-projects.vercel.app
+Check out the live demo here https://quiz-app-seven-bay.vercel.app/
 
 ## Installation
 
